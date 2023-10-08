@@ -122,7 +122,7 @@
       <div class="container">
 
         <marquee
-    scrollamount="14"
+    scrollamount="12"
     width="100%"
     direction="left"
     height="40px"
@@ -189,6 +189,7 @@
               </div>
               <br>
               <button id="download-resume">Download Resume</button>
+              <button id="download-cv" style="margin-left: 11px;">Download CV</button>
             </div>
           </div>
         </div>
@@ -426,6 +427,22 @@
                 </div>
               </div>
 
+              <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12" data-wow-delay="0.4s">
+                <div class="member">
+                  <img src="assets/img/resume.png" class="img-fluid" style="min-height: 290px; max-height: 295px;" alt="">
+                  <div class="member-info">
+                    <div class="member-info-content">
+                      <h4>Resume Screening using NLP</h4>
+                      <span>Classify the perfect resume for our company.</span>
+                    </div>
+                    <div class="social">
+                      
+                      <a href="https://github.com/Monirul-Islam-Mahmud/Diabetic-Foot-Ulcer-Detection" class="btn-get-started" target ="blank"><button class="btn btn-outline-light">view </button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
 
           </div>
           </div>
@@ -608,6 +625,10 @@
   <script>
     document.getElementById("download-resume").addEventListener("click", function() {
       window.open("cv.pdf");
+    });
+
+    document.getElementById("download-cv").addEventListener("click", function() {
+      window.open("Monirul_Islam_Mahmud_CV.pdf");
     });
   </script>
   <!-- Template Main JS File -->
